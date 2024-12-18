@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm" action="/login" method="post">
+            <input type="text" id="username" placeholder="Username" required aria-required="true">
+            <input type="password" id="password" placeholder="Password" required aria-required="true">
+            <div class="utility">
+                <label>
+                    <input type="checkbox" name="remember">
+                    Remember Me
+                </label>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+        <div class="social-login">
+            <p>or login with</p>
+            <button class="social-button" id="facebook-login"><i class="fab fa-facebook-f"></i> Facebook</button>
+            <button class="social-button" id="google-login"><i class="fab fa-google"></i> Google</button>
+            <button class="social-button" id="twitter-login"><i class="fab fa-twitter"></i> Twitter</button>
+        </div>
+        <div class="terms">
+            By logging in, you agree to our <a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy
+                Policy</a>.
+        </div>
+        <p class="create-account">Don't have an account? <a href="#">Create New Account</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

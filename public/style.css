@@ -1,0 +1,134 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.login-container {
+    width: 340px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect width */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003580;
+}
+
+/* Styles for social login buttons */
+.social-login p {
+    margin: 10px 0;
+}
+
+.social-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#facebook-login {
+    background-color: #3b5998;
+}
+
+#google-login {
+    background-color: #db4437;
+}
+
+#twitter-login {
+    background-color: #1da1f2;
+}
+
+.social-button i {
+    margin-right: 8px;
+}
+
+.utility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    /* Space before the login button */
+}
+
+.utility label {
+    display: flex;
+    align-items: center;
+}
+
+.utility input[type="checkbox"] {
+    margin-right: 5px;
+    /* Space between checkbox and label text */
+}
+
+.forgot-password {
+    color: #0056b3;
+    /* Theme color for links */
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+    /* Space after the social login buttons */
+}
+
+.create-account a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.terms a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
