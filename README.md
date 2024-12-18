@@ -15,3 +15,7 @@ This project implements a basic but secure login page, designed to be both funct
 - **JavaScript**: Enhances interactivity, handling form submissions and front-end validation.
 - **Git**: For version control.
 - **GitHub**: Hosts the repository and tracks changes to the project.
+
+## Screenshot
+Here is a screenshot of the login page:
+![Login Page Screenshot](/Image/login-page.jpg)
